@@ -1,0 +1,77 @@
+{
+  "id": "clutchs-drift-crashers",
+  "title": "Clutch's Drift Crashers",
+  "version": "2026.01.05",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Clutch",
+      "discord": ".clutch",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "drift-crasher-actors",
+      "label": "DC Actors",
+      "path": "packs/drift-crasher-actors",
+      "type": "Actor",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "drift-crasher-journals",
+      "label": "DC Journals",
+      "path": "packs/drift-crasher-journals",
+      "type": "JournalEntry",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "drift-crasher-sounds",
+      "label": "DC Sounds",
+      "path": "packs/drift-crasher-sounds",
+      "type": "Playlist",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "drift-crasher-maps",
+      "label": "DC Maps",
+      "path": "packs/drift-crasher-maps",
+      "type": "Scene",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "drift-crasher-adventure",
+      "label": "DC Adventure",
+      "path": "packs/drift-crasher-adventure",
+      "type": "Adventure",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "description": ""
+}
